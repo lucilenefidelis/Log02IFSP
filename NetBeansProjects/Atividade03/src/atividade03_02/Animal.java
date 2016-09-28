@@ -25,26 +25,29 @@ public class Animal {
         this.cor = cor;
         this.ambiente = ambiente;
         this.velocidade = velocidade;
+        this.dados();
     }
     public void alteraNome(String nome){
-        
+        this.nome=nome;
     }
     public void alteraComprimento(int comprimento){
-        
+        this.comprimento=comprimento;
     }
     public void alteraPatas(int patas){
-        
+        this.patas=patas;
     }
     public void alteraCor(String cor){
-        
+        this.cor=cor;
     }
     public void alteraAmbiente(String Ambiente){
-        
+        this.ambiente=ambiente;
     }
     public void alteraVelocidade(float velocidade){
+        this.velocidade=velocidade;
+    }
+    public void dados(){
         
     }
-    public void dados(String dados){
-        
-    }
+
+   
 }
